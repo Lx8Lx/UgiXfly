@@ -11,7 +11,7 @@ local closebutton = Instance.new("TextButton")
 local mini = Instance.new("TextButton")
 local mini2 = Instance.new("TextButton")
 
-local darkRed = Color3.fromRGB(139, 0, 0)
+local darkRed = Color3.fromRGB(196, 164, 132)
 local gray = Color3.fromRGB(128, 128, 128)
 
 main.Name = "UgiXFlyGui"
@@ -32,7 +32,7 @@ up.Parent = Frame
 up.BackgroundColor3 = darkRed
 up.Size = UDim2.new(0, 44, 0, 28)
 up.Font = Enum.Font.SourceSans
-up.Text = "أعلى"
+up.Text = "فوق"
 up.TextColor3 = Color3.new(1, 1, 1)
 up.TextSize = 14
 
@@ -42,7 +42,7 @@ down.BackgroundColor3 = darkRed
 down.Position = UDim2.new(0, 0, 0.49, 0)
 down.Size = UDim2.new(0, 44, 0, 28)
 down.Font = Enum.Font.SourceSans
-down.Text = "أسفل"
+down.Text = "تحت"
 down.TextColor3 = Color3.new(1, 1, 1)
 down.TextSize = 14
 
@@ -61,7 +61,7 @@ TextLabel.BackgroundColor3 = darkRed
 TextLabel.Position = UDim2.new(0.47, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 100, 0, 28)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "UgiX هاب : طيران"
+TextLabel.Text = "طيران ~ UgiX"
 TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14
